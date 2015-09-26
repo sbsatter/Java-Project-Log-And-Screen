@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40" fx:controller="TickTackToe.MainScreenController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="500.0">
+         <children>
+            <Button fx:id="hard" layoutX="158.0" layoutY="237.0" mnemonicParsing="false" text="hard">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="easy" layoutX="256.0" layoutY="237.0" mnemonicParsing="false" text="easy">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="p1" layoutX="205.0" layoutY="397.0" mnemonicParsing="false" text="Player 01" />
+            <Button fx:id="p2" layoutX="205.0" layoutY="442.0" mnemonicParsing="false" text="Player 02" />
+            <Label layoutX="146.0" layoutY="182.0" text="Choose Mode :" textFill="#641472">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="158.0" layoutY="354.0" text="Choose Player :" textFill="#641472">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="newGame" layoutX="174.0" layoutY="105.0" mnemonicParsing="false" text="New Game">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
